@@ -12,11 +12,11 @@ void setup()
 void draw() {
   if (mousePressed == true) 
   {                           //if we clicked in the window
-   myPort.write("A");         //send a A
+   myPort.write("A ,");         //send a 1
    println("A");   
   } else 
   {                           //otherwise
-  myPort.write("B");          //send a B
+  myPort.write("B ,");          //send a 0
   println("B");
   }   
 }
